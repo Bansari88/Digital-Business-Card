@@ -1,0 +1,47 @@
+.info{
+    text-align: center;
+  }
+
+.info > img{
+    width: 100%;
+    height: 220px;
+    border-radius: 15px;
+  }
+  
+  .info--details{
+    position: relative;
+    top:10px;
+  }
+
+  .info--details > h3, .info--details > h5{
+    margin: 0px;
+  }
+  
+  .info--details > h3{
+    color: white;
+    
+  }
+  
+  .info--details > h5{
+    color: chocolate;
+    
+  }
+  
+  .info--buttons > img{
+    width: 100%;
+    height: 100%;
+    margin-top: 1.5px;
+    border-radius: 5px;
+  }
+  
+  .info--buttons{
+    border: none;
+    margin: 5px;
+    width: 100px;
+    position: relative;
+    top: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 25px;
+    background-color: inherit;
+  }
